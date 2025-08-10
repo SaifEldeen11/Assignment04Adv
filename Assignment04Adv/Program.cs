@@ -288,24 +288,24 @@ namespace Assignment04Adv
             #endregion
 
             #region Q14
-            Hashtable hashtable = new Hashtable()
-            {
-            {"a", 1},
-            {"b", 2},
-            {"g", 3},
-            {"f", 4},
-            {"e", 5},
-            {"d", 6},
-            };
+            //Hashtable hashtable = new Hashtable()
+            //{
+            //{"a", 1},
+            //{"b", 2},
+            //{"g", 3},
+            //{"f", 4},
+            //{"e", 5},
+            //{"d", 6},
+            //};
 
-            foreach (DictionaryEntry entry in hashtable)
-            {
-                int value = (int)entry.Value;
-                if (value % 2 == 0)
-                {
-                    Console.WriteLine(entry.Key);
-                }
-            }
+            //foreach (DictionaryEntry entry in hashtable)
+            //{
+            //    int value = (int)entry.Value;
+            //    if (value % 2 == 0)
+            //    {
+            //        Console.WriteLine(entry.Key);
+            //    }
+            //}
             #endregion
         }
 
